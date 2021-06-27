@@ -31,9 +31,6 @@ class Rendering
         //recupère le template layout qui s'affiche à chaque fois 
         require_once "templates/layout.html.php";
 
-
-
-
     }
 
 

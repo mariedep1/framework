@@ -10,4 +10,4 @@ spl_autoload_register(function($class){
 
 });
 
-//autolaod  renvoit l'erreur de l'instanciation du controller s'il n'arrive pas à faire le require
+//autoload renvoit une erreur d'instanciation du controller s'il n'arrive pas à faire le require (erreur de syntaxe etc)
