@@ -2,7 +2,22 @@
 
 <h2 class='text-center text-uppercase mt-3'><?php echo $message ?></h2>
 
-<section class="start">
+
+
+<section class="convention">
+
+    <h3 class="important my-4">Les règles et convention à respecter</h3>
+
+    <ul>
+        <li>Les noms de classe commencent <span class="important">toujours avec une majuscule et sont au singulier</span> .</li>
+        <li>Il faut penser à mettre le <span class="important"> namespace de la classe</span>, nom du dossier dans lequel le fichier se trouve pour permettre à PHP de les différencier.</li>
+        <li>Le namespace <span class="important"> se trouve toujours au plus haut du fichier</span> de la classe, en dessous de la balise ouvrante php</li>
+    </ul>
+
+</section>
+
+
+<section class="start mt-5">
     <h3>Pour Débuter:</h3>
     <h4>La base de Données</h4>
     <ul>
@@ -31,7 +46,7 @@
                 Comment fonctionne App.php ? Dans ce fichier, la méthode statique Process() permet de gérer les controllers et les tâches paramètrés dans l'url. <span class="important">Cette méthode récupère le nom du controller, le nom de la tache, crée un instance de ce controller afin de pouvoir exécuter la tâche. </span> <br>
                 Chaque fonctionnalité a son controller. Ce controller a des tâches, c'est-à-dire des méthodes. La méthode index d'un controller permet de gérer l'affichage de la page d'acceuil. 
             </p>
-            <p>Ici, nous voulons afficher sur la page d'accueil tous les garages qui se trouvent dans la base de données. a méthode index du controller Garage ressemblera donc à l'image ci-dessous.</p>
+            <p>Ici, nous voulons afficher sur la page d'accueil tous les garages qui se trouvent dans la base de données. La méthode index du controller Garage ressemblera donc à l'image ci-dessous.</p>
             <img src="templates/images/image3.png" alt="">
         </li>
     </ul>
@@ -86,7 +101,7 @@
 </section>
 
 
-<section class="interaction">
+<section class="interaction mt-5">
     <h3><?php echo $messageChangeable ?></h3>
 
     <form action="index.php?controller=home&task=index" method="POST">
@@ -105,7 +120,7 @@
 </section>
 
 
-<section class="procedure mt-4">
+<section class="procedure mt-5">
     <h3>Les étapes de mise en place</h3>
 
     <h4>Prenons un exemple</h4>
